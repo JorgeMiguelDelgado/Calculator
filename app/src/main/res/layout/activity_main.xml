@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#3A82DF"
+    >
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Ingrese un Número"
+        android:inputType="number|numberDecimal" />
+
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Ingrese un Número"
+        android:inputType="number|numberDecimal"
+
+
+        />
+
+    <EditText
+        android:id="@+id/respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="0"
+        android:inputType="textPersonName"
+        android:textColor="#1B5192"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_suma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Suma"
+        android:background="#375F92"/>
+
+    <Button
+        android:id="@+id/btn_resta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Resta"
+        android:background="#375F92"/>
+
+    <Button
+        android:id="@+id/btn_multiplicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/button"
+        android:backgroundTint="#3F51B5"
+        android:text="Multiplicación" />
+
+    <Button
+        android:id="@+id/btn_division"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="División"
+        android:background="#375F92"/>
+</LinearLayout>
